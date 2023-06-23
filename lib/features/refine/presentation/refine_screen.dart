@@ -73,7 +73,7 @@ class _RefineScreenState extends State<RefineScreen> {
                   ),
                 ),
               ) ,
-              SizedBox(height: AppMediaQuery.heightDistanse(0.05, context),),
+              SizedBox(height: AppMediaQuery.heightDistanse(0.03, context),),
               Divider(color: AppColors.primaryColor, thickness: 0.2,),
               SizedBox(height: AppMediaQuery.heightDistanse(0.02, context),),
               Row(

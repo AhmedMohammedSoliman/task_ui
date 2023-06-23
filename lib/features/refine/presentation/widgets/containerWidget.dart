@@ -33,13 +33,11 @@ class _ContainerWidgetState extends State<ContainerWidget> {
           border: Border.all(color: widget.isSelected ? Colors.transparent :
           AppColors.primaryColor)
         ),
-        child: Expanded(
-          child: Center(
-            child: Text (widget.text ,maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-              fontSize: 14 ,
-              color: widget.isSelected ? Colors.white : AppColors.primaryColor
-            ),),
-          ),
+        child: Center(
+          child: Text (widget.text ,maxLines: 1, overflow: TextOverflow.ellipsis, style: Theme.of(context).textTheme.bodyLarge!.copyWith(
+            fontSize: 14 ,
+            color: widget.isSelected ? Colors.white : AppColors.primaryColor
+          ),),
         ),
       ),
     );
